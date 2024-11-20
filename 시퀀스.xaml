@@ -1,0 +1,201 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="시퀀스" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1222,1829" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="시퀀스" sap:VirtualizedContainerService.HintSize="512,1764" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: 주소정보누리집(도로명주소 안내시스템)" sap:VirtualizedContainerService.HintSize="450,1511" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="45f09d27-89ea-4227-9f99-dd04004e58fe" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="416,1271" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="str_number" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '충청남도 천안시'" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="354,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="45f09d27-89ea-4227-9f99-dd04004e58fe" Text="충청남도 천안시 서북구 월봉4로 88-11 월봉대우아파트" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.juso.go.kr/openIndexPage.do" CVScreenId="575d05aa-6707-42c0-8a06-01db4682d07e" CvElementArea="575, 456, 748, 96" CvType="InputBox" DesignTimeRectangle="607, 484, 615, 40" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='inputSearchAddr' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='inputSearchAddr' tag='INPUT' type='text' class='input_country ui-autocomplete-input ui-autocomplete-loading' placeholder='예) 도움6로 42, 국립중앙박물관, 상암동 1595, 초성검색' aaname='검색어 입력-예) 도움6로 42, 국립중앙박물관, 상암동 1595, 초성검색' /&gt;" Guid="578b4555-fdb5-4a21-8a6a-6bc17936d690" InformativeScreenshot="1d0c384ff5afdf911c7af61898a637e6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='주소정보누리집(도로명주소 안내시스템)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '검색'" sap:VirtualizedContainerService.HintSize="354,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45f09d27-89ea-4227-9f99-dd04004e58fe" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.juso.go.kr/openIndexPage.do" DesignTimeRectangle="1263, 489, 33, 33" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='검색' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='검색' tag='BUTTON' type='button' class='btn_search searchBtn' aaname='검색' check:innerText='검색' /&gt;" Guid="31b607e3-1ea3-4e36-85d9-3602104ceaa6" InformativeScreenshot="98d2ec86c1e253d49a48d40b2baf357a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='주소정보누리집(도로명주소 안내시스템)' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text '31171'" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="45f09d27-89ea-4227-9f99-dd04004e58fe" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.juso.go.kr/support/AddressMainSearch.do?searchKeyword=%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EC%B2%9C%EC%95%88%EC%8B%9C+%EC%84%9C%EB%B6%81%EA%B5%AC+%EC%9B%94%EB%B4%894%EB%A1%9C+88-11+%EC%9B%94%EB%B4%89%EB%8C%80%EC%9A%B0%EC%95%84%ED%8C%8C%ED%8A%B8&amp;dsgubuntext=&amp;dscity1text=&amp;dscounty1text=&amp;dsemd1text=&amp;dsri1text=&amp;dssan1text=&amp;dsrd_nm1text=&amp;aotYn=N" CVScreenId="22d7e83a-e58c-4af9-bf7c-95b4665c8e70" CvTextArea="1372, 618, 57, 17" CvType="AnyWordGroup" DesignTimeRectangle="1373, 612, 58, 27" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='list1' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='list1' tag='STRONG' type='' class='' /&gt;" Guid="6ea7c7ca-b4b9-41ec-980a-51ceb1ef7401" InformativeScreenshot="45e56467b9640816cb20014cf35502f7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='검색결과 | 도로명주소 안내시스템' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NGetText.Target>
+              <uix:NGetText.TextString>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">str_number</CSharpReference>
+                </OutArgument>
+              </uix:NGetText.TextString>
+            </uix:NGetText>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '지도보기'" sap:VirtualizedContainerService.HintSize="354,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45f09d27-89ea-4227-9f99-dd04004e58fe" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.juso.go.kr/support/AddressMainSearch.do?searchKeyword=%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EC%B2%9C%EC%95%88%EC%8B%9C+%EC%84%9C%EB%B6%81%EA%B5%AC+%EC%9B%94%EB%B4%894%EB%A1%9C+88-11+%EC%9B%94%EB%B4%89%EB%8C%80%EC%9A%B0%EC%95%84%ED%8C%8C%ED%8A%B8&amp;dsgubuntext=&amp;dscity1text=&amp;dscounty1text=&amp;dsemd1text=&amp;dsri1text=&amp;dssan1text=&amp;dsrd_nm1text=&amp;aotYn=N" CVScreenId="22d7e83a-e58c-4af9-bf7c-95b4665c8e70" CvElementArea="1456, 582, 41, 39" CvTextArea="1450, 622, 52, 15" CvType="Icon" DesignTimeRectangle="1447, 582, 60, 50" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='map_4413310700115480000056012' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='map_4413310700115480000056012' tag='A' type='' class='btn_dt_map' aaname='지도보기' check:innerText='지도보기' /&gt;" Guid="8b8a1031-c016-4368-8206-84acbcb5b5b9" ImageBase64="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" InformativeScreenshot="910f34fc62a31164e0721d983cb43007.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='검색결과 | 도로명주소 안내시스템' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTakeScreenshot DisplayName="Take Screenshot 'CANVAS'" FileNameMode="None" sap:VirtualizedContainerService.HintSize="354,256" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="45f09d27-89ea-4227-9f99-dd04004e58fe" Version="V3">
+              <uix:NTakeScreenshot.FileName>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">$"{str_number}screenshot.png"</CSharpValue>
+                </InArgument>
+              </uix:NTakeScreenshot.FileName>
+              <uix:NTakeScreenshot.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.juso.go.kr/support/AddressMainSearch.do?searchKeyword=%EC%B6%A9%EC%B2%AD%EB%82%A8%EB%8F%84+%EC%B2%9C%EC%95%88%EC%8B%9C+%EC%84%9C%EB%B6%81%EA%B5%AC+%EC%9B%94%EB%B4%894%EB%A1%9C+88-11+%EC%9B%94%EB%B4%89%EB%8C%80%EC%9A%B0%EC%95%84%ED%8C%8C%ED%8A%B8&amp;dsgubuntext=&amp;dscity1text=&amp;dscounty1text=&amp;dsemd1text=&amp;dsri1text=&amp;dssan1text=&amp;dsrd_nm1text=&amp;aotYn=N" DesignTimeRectangle="8, 215, 1920, 685" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tag='CANVAS' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='CANVAS' type='' class='ol-unselectable' aaname='' /&gt;" Guid="1c71a5e4-f9f3-4786-b1ff-d157a5837525" InformativeScreenshot="82be262e56a1bbd23ca022937b231512.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='검색결과 | 도로명주소 안내시스템' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive" />
+              </uix:NTakeScreenshot.Target>
+            </uix:NTakeScreenshot>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVDhPtdC/DsFQFAZwISnvYrZ4AEuj3oCIxgt4iDvYmhjEhqWJ1UyTCoNNbGIRxOBPPYD6TnM01w2KcJLf0HvP9+Wmsb/MppFOQQFaphg2y8LVQePrxyOFuuCBT0zh+AiTI7QhD0mOBcGsGpJJBbITdCBDBWc1xGc2FCvCKWHRBg/Uoi0VyMEe6JDiB4aDZQ1yQP/kAkGJXHCAOO+/HASnYcHYMnwysYwd30cOgjVoEPoImqpisOf7z+ZWAGs+ihzs1qFPvi0Y3XI/LdhDgneeDnbIjDN3BWQF8whLCDNqwceoYKEevs9dXAH0dnsrdEwaawAAAABJRU5ErkJggg==" InformativeScreenshot="43ccb69e4b2fb0a8d96e132032f32372.jpg" Selector="&lt;html app='chrome.exe' title='주소정보누리집(도로명주소 안내시스템)' /&gt;" Title="주소정보누리집(도로명주소 안내시스템)" Url="https://www.juso.go.kr/openIndexPage.do" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
